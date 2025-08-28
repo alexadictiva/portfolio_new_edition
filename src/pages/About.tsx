@@ -106,15 +106,36 @@ export const About: React.FC = () => {
                                 {profile.about}
                             </p>
 
-                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                                Me apasiona crear experiencias digitales excepcionales que combinen funcionalidad,
-                                estética y accesibilidad. Mi enfoque se centra en escribir código limpio y mantenible,
-                                utilizando las mejores prácticas y tecnologías modernas.
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+                                Nací y crecí en Caracas, Venezuela, donde cursé mis estudios secundarios y posteriormente inicié la carrera de Administración de Empresas. En 2017 emigré a Argentina, estableciéndome en la ciudad de Buenos Aires, donde trabajé en el área de atención al cliente mientras comenzaba a capacitarme en desarrollo web.
                             </p>
 
-                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                                Cuando no estoy programando, disfruto explorando nuevas tecnologías, contribuyendo
-                                a proyectos de código abierto y compartiendo conocimientos con la comunidad de desarrolladores.
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+                                Mi interés por la programación surgió en 2015, cuando desarrollé un sistema de mensajería interna para facilitar la comunicación entre trabajadores y supervisores dentro de la empresa en la que me desempeñaba. A partir de allí decidí enfocar mi carrera en el mundo del desarrollo web sin dejar de lado mi formación en administración.
+                            </p>
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+                                Desde entonces he complementado mi formación con múltiples cursos en plataformas como Platzi, EDTeam y Udemy, y en 2020 comencé la carrera técnica de Programación y Diseño Web en el Instituto ALPI. Paralelamente he adquirido experiencia práctica construyendo aplicaciones SaaS orientadas al e-commerce y trabajando con integraciones a plataformas como Mercado Libre, Tiendanube, Empretienda, Woocommerce, entre otras.
+                            </p>
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+                                Manejo herramientas y tecnologías como:
+                                <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300 mt-3 text-[14.5px] pl-[24px]">
+                                    <li><strong class="text-gray-900 dark:text-white">HTML5, CSS3 y SCSS:</strong> para la maquetación y estilos.</li>
+                                    <li><strong class="text-gray-900 dark:text-white">JavaScript y jQuery:</strong> para la lógica de interacción y dinamismo.</li>
+                                    <li><strong class="text-gray-900 dark:text-white">React:</strong> para el desarrollo de interfaces modernas y escalables.</li>
+                                    <li><strong class="text-gray-900 dark:text-white">Twig y PHP:</strong> en entornos con plantillas y backends personalizados.</li>
+                                    <li><strong class="text-gray-900 dark:text-white">Git y GitHub:</strong> para control de versiones, tanto en terminal como en interfaz gráfica.</li>
+                                    <li><strong class="text-gray-900 dark:text-white">Figma:</strong> en modo desarrollador para trasladar diseños a código de manera precisa.</li>
+                                </ul>
+
+                            </p>
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+                                También he trabajado con MySQL para la gestión de bases de datos, Google Apps Script para automatizaciones y con metodologías de diseño responsivo enfocadas en la experiencia de usuario.
+                            </p>
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+                                Me considero una persona autodidacta, detallista y orientada a soluciones, con la capacidad de crear aplicaciones y páginas web que aporten valor real a las empresas, optimizando procesos y generando impacto positivo en sus ingresos.
+                            </p>
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+                                Mi objetivo es seguir consolidando mis conocimientos en el ecosistema frontend, explorando librerías y frameworks modernos, y continuar desarrollando proyectos que combinen tecnología, diseño y funcionalidad para resolver necesidades del mundo real.
                             </p>
                         </div>
 
@@ -146,7 +167,7 @@ export const About: React.FC = () => {
                                     Especialización
                                 </h4>
                                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                                    React, TypeScript, y diseño responsive
+                                    JQuery, React y diseño responsive
                                 </p>
                             </motion.div>
                         </div>

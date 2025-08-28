@@ -56,7 +56,7 @@ export const Contact: React.FC = () => {
                         </h3>
                         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
                             ¿Tienes un proyecto en mente? ¿Te gustaría colaborar o simplemente charlar sobre tecnología?
-                            No dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y conversaciones interesantes.
+                            No dudes en contactarme. Estoy siempre atenta a nuevas oportunidades y conversaciones interesantes.
                         </p>
                     </motion.div>
 
@@ -110,7 +110,7 @@ export const Contact: React.FC = () => {
                         </h3>
                         <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-2xl mx-auto">
                             Si tienes un proyecto que te gustaría discutir o simplemente quieres conectarte,
-                            estaré encantado de escuchar de ti.
+                            estaré encantada de escuchar de ti.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">

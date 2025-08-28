@@ -80,7 +80,7 @@ export const Education: React.FC = () => {
                         Formación Continua
                     </h3>
                     <p className="text-gray-700 dark:text-gray-300 text-center max-w-3xl mx-auto">
-                        Me mantengo constantemente actualizado con las últimas tecnologías y mejores prácticas
+                        Me mantengo constantemente actualizada con las últimas tecnologías y mejores prácticas
                         del desarrollo web a través de cursos online, conferencias y participación en comunidades
                         de desarrolladores.
                     </p>
