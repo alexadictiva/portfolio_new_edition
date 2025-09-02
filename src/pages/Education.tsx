@@ -88,7 +88,7 @@ export const Education: React.FC = () => {
                     <div className="grid sm:grid-cols-3 gap-6 mt-8">
                         <div className="text-center">
                             <div className="text-2xl font-bold text-accent mb-2">
-                                +50
+                                +25
                             </div>
                             <div className="text-sm text-gray-600 dark:text-gray-400">
                                 Cursos Completados

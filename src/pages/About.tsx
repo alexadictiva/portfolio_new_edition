@@ -7,16 +7,16 @@ export const About: React.FC = () => {
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-0">
             <Section id="sobre-mi" title="Sobre mí" className="bg-white dark:bg-gray-800">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="grid lg:grid-cols-2 gap-12 items-baseline">
                     {/* Avatar and Personal Info */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
-                        className="text-center lg:text-left"
+                        className="text-center"
                     >
-                        <div className="flex justify-center lg:justify-start mb-8">
+                        <div className="flex justify-center mb-8">
                             <Avatar
                                 src={profile.avatar}
                                 alt={profile.name}
@@ -32,7 +32,7 @@ export const About: React.FC = () => {
                             {profile.role}
                         </p>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4 lg:w-max lg:mx-auto">
                             <div className="flex items-center justify-center lg:justify-start">
                                 <svg
                                     className="w-5 h-5 text-accent mr-3"

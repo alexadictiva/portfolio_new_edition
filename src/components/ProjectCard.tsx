@@ -20,7 +20,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
                 <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
                     onError={(e) => {
                         // Fallback a una imagen placeholder
                         const target = e.target as HTMLImageElement;

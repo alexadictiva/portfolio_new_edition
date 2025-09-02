@@ -12,10 +12,10 @@ import { Contact } from './pages/Contact';
 function App() {
     return (
         <ThemeProvider>
-            <Router>
+            <Router basename="/portfolio_new_edition">
                 <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
                     <TopNav />
-                    <main className="pt-16">
+                    <main className="">
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/sobre-mi" element={<About />} />

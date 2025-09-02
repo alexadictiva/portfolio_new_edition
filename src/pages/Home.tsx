@@ -100,7 +100,7 @@ export const Home: React.FC = () => {
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        className="flex-1 flex justify-center lg:justify-end"
+                        className="flex-1 flex justify-center"
                     >
                         <Avatar
                             src={profile.avatar}
